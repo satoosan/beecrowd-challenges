@@ -10,10 +10,12 @@ public class Main {
 		double a = sc.nextDouble();
 		double b = sc.nextDouble();
 		
-		double media = (a*3.5 + b*7.5)/11.0;
-		System.out.printf("MEDIA = %.5f\n", media);
-		
+		System.out.printf("MEDIA = %.5f\n", media(a, b));
 		sc.close();
+	}
+	
+	public static double media(double a, double b) {
+		return (a*3.5 + b*7.5)/11.0;
 	}
 
 }

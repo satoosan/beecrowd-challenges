@@ -10,10 +10,13 @@ public class ExtremamentaBasico {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		int soma = a + b;
-		System.out.println("X = " + soma);
+		sum(a, b);
 		
 		sc.close();
 	}
 
+	public static void sum(int a, int b) {
+		System.out.println("X = " + (a+b));
+	}
+	
 }

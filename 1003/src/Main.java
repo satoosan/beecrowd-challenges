@@ -10,10 +10,14 @@ public class Main {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		int soma = a + b;
+		int soma = sum(a, b);
 		System.out.println("SOMA = " + soma);
 		
 		sc.close();
+	}
+	
+	public static int sum(int a, int b) {
+		return a + b;
 	}
 
 }

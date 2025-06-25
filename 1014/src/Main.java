@@ -4,19 +4,15 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Scanner sc = new Scanner(System.in);
 		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		int distancia = sc.nextInt();
+		double gasto = sc.nextDouble();
 		
-		System.out.println("PROD = " + prod(a, b));
+		double consumoMedio = distancia/gasto;
+		System.out.println(String.format("%.3f", consumoMedio) + " km/l");
 		
 		sc.close();
 	}
 
-	public static int prod(int a, int b) {
-		return a * b;
-	}
-	
 }
